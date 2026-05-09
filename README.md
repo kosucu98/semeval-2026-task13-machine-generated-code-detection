@@ -1,2 +1,20 @@
-# semeval-2026-task13-machine-generated-code-detection
-My contributions to a team project for SemEval 2026 Task 13, focusing on Subtasks A and C for machine-generated code detection with LLaMA-based classifiers.
+# SemEval 2026 Task 13: Machine-Generated Code Detection
+
+This repository contains my contributions to a team submission for SemEval 2026 Task 13, focused on detecting and attributing machine-generated code.
+
+My work focused on Subtask A and Subtask C using LLaMA-based sequence classification models.
+
+## Subtasks
+
+- **Subtask A:** Binary classification — human-written vs. machine-generated code
+- **Subtask B:** Multi-class attribution — handled by project partner Osman Yigit Kandemir
+- **Subtask C:** Classification of human-written, machine-generated, hybrid, and adversarial code
+
+## My Contributions
+
+- Implemented LLaMA-2-7B fine-tuning pipelines for Subtask A and Subtask C
+- Built training and validation workflows using PyTorch and Hugging Face Transformers
+- Processed Parquet datasets with pandas and Hugging Face Datasets
+- Added evaluation with accuracy, precision, recall, F1, and classification reports
+- Implemented test-set inference and CSV generation for submission format
+- Adapted scripts for the University of Augsburg LICCA HPC environment with local model paths and offline Hugging Face settings
