@@ -1,8 +1,8 @@
 # SemEval 2026 Task 13: Machine-Generated Code Detection
 
-This repository contains my contributions to a team submission for SemEval 2026 Task 13, focused on detecting and attributing machine-generated code.
+This repository contains my contributions to our team submission for **SemEval 2026 Task 13**, focused on detecting and attributing machine-generated code.
 
-My work focused on Subtask A and Subtask C using LLaMA-based sequence classification models.
+My work focused on **Subtask A** and **Subtask C**, where I implemented LLaMA-based sequence classification models.
 
 ## Competition and Dataset Information
 
@@ -23,4 +23,20 @@ https://www.kaggle.com/datasets/daniilor/semeval-2026-task13
 - Processed Parquet datasets with pandas and Hugging Face Datasets
 - Added evaluation with accuracy, precision, recall, F1, and classification reports
 - Implemented test-set inference and CSV generation for submission format
-- Adapted scripts for the University of Augsburg LICCA HPC environment with local model paths and offline Hugging Face settings
+- Adapted scripts for the University of Augsburg LICCA HPC environment with local model paths and offline Hugging Face settings, as LLaMA-based training was not feasible on a personal laptop
+
+## Repository Structure
+
+Each subtask folder contains the Python training/evaluation script and a shell script showing how the experiment was run on the Slurm-based HPC environment.
+
+```text
+.
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── task_a/
+│   ├── task_a_llama.py
+│   └── run_task_a_llama.sh
+└── task_c/
+    ├── task_c_llama.py
+    └── run_task_c_llama.sh
