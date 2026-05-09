@@ -4,6 +4,12 @@ This repository contains my contributions to a team submission for SemEval 2026 
 
 My work focused on Subtask A and Subtask C using LLaMA-based sequence classification models.
 
+## Competition and Dataset Information
+
+More information about the SemEval 2026 Task 13 challenge, including the task description, subtasks, and datasets, can be found on the Kaggle page:
+
+https://www.kaggle.com/datasets/daniilor/semeval-2026-task13
+
 ## Subtasks
 
 - **Subtask A:** Binary classification — human-written vs. machine-generated code
