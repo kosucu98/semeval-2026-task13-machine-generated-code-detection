@@ -34,7 +34,7 @@ The models were evaluated using standard classification metrics, with particular
 | Subtask A | LLaMA-2-7B sequence classification | 10K training samples | 0.38377 |
 | Subtask C | LLaMA-2-7B sequence classification | 10K training samples | 0.56920 |
 
-More detailed results and notes are available in [`results_summary.md`](results_summary.md).
+More detailed results and notes are available in [`results.md`](results.md).
 
 ## Repository Structure
 
