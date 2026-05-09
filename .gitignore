@@ -216,3 +216,37 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-specific: SemEval / LLaMA training
+
+# Dataset and submission files
+*.parquet
+*.csv
+*.jsonl
+data/
+datasets/
+
+# Model outputs and checkpoints
+outputs/
+checkpoints/
+models/
+*-model/
+taskA-llama-model/
+taskC-llama-model/
+pytorch_model.bin
+*.safetensors
+*.ckpt
+
+# Hugging Face / training cache
+hf_cache/
+tokenized_cache*/
+tokenized_cache_taskc/
+
+# Experiment tracking and logs
+wandb/
+runs/
+logs/
+
+# Secrets / credentials
+*.env
+kaggle.json
