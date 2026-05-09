@@ -25,7 +25,7 @@ https://www.kaggle.com/datasets/daniilor/semeval-2026-task13
 - Implemented test-set inference and CSV generation for submission format
 - Adapted scripts for the University of Augsburg LICCA HPC environment with local model paths and offline Hugging Face settings.
 
-- ## Results
+## Results
 
 The models were evaluated using standard classification metrics, with particular focus on F1-score due to the classification setting.
 
