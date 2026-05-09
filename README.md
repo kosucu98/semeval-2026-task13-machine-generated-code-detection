@@ -23,7 +23,18 @@ https://www.kaggle.com/datasets/daniilor/semeval-2026-task13
 - Processed Parquet datasets with pandas and Hugging Face Datasets
 - Added evaluation with accuracy, precision, recall, F1, and classification reports
 - Implemented test-set inference and CSV generation for submission format
-- Adapted scripts for the University of Augsburg LICCA HPC environment with local model paths and offline Hugging Face settings, as LLaMA-based training was not feasible on a personal laptop
+- Adapted scripts for the University of Augsburg LICCA HPC environment with local model paths and offline Hugging Face settings.
+
+- ## Results
+
+The models were evaluated using standard classification metrics, with particular focus on F1-score due to the classification setting.
+
+| Subtask | Model / Approach | Training Setup | Macro-F1 |
+|---|---|---:|---:|
+| Subtask A | LLaMA-2-7B sequence classification | 10K training samples | 0.38377 |
+| Subtask C | LLaMA-2-7B sequence classification | 10K training samples | 0.56920 |
+
+More detailed results and notes are available in [`results_summary.md`](results_summary.md).
 
 ## Repository Structure
 
