@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import os
 os.environ["WANDB_DISABLED"] = "true"
 os.environ.setdefault("TRANSFORMERS_OFFLINE", "1")
